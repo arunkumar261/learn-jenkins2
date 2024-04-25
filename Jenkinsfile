@@ -58,7 +58,6 @@ pipeline{
 
                 echo "Toggle: ${params.TOGGLE}"
 
-                echo "Choice: ${params.CHOICE}"
             }
         }
     }
