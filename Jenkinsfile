@@ -28,7 +28,7 @@ pipeline{
         stage('check'){
             steps{
                 sh """
-                echo Here i wrote shell script
+                echo "Here i wrote shell script"
                 env
                 """
 
